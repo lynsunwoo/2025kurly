@@ -1,0 +1,52 @@
+{
+  "products02": [
+    {
+      "id": 1,
+      "name": "[김호윤키친] 더이탈리안클럽 부채살 스테이크",
+      "price": 16900,
+      "img": "/images/cont01.jpg"
+    },
+    {
+      "id": 2,
+      "name": "[25-26 햇올리브][꾸악]스페인 유기농 엑스트라버진 500mL",
+      "price": 94600,
+      "img": "/images/cont02.jpg"
+    },
+    {
+      "id": 3,
+      "name": "[신사동 포노 부오노] 히든 천재의 쉬림프바질오일파스타",
+      "price": 11920,
+      "img": "/images/cont03.jpg"
+    },
+    {
+      "id": 4,
+      "name": "[차려낸]햄 가득 송탄식 부대찌개",
+      "price": 11900,
+      "img": "/images/cont04.jpg"
+    },
+    {
+      "id": 5,
+      "name": "[청담동 정식카페]대추&밤 몽블랑 케이크",
+      "price": 11900,
+      "img": "/images/cont05.jpg"
+    },
+    {
+      "id": 6,
+      "name": "[빕스]바베큐 폭립 오리지날 450g",
+      "price": 12600,
+      "img": "/images/cont06.jpg"
+    },
+    {
+      "id": 7,
+      "name": "[마이셰프]소고기 샤브샤브 밀키트 3~4인분(고기 350g)",
+      "price": 23715,
+      "img": "/images/cont07.jpg"
+    },
+    {
+      "id": 8,
+      "name": "[정관장]홍삼정 더 클래스 농축 스틱",
+      "price": 129000,
+      "img": "/images/cont08.jpg"
+    }
+  ]
+}

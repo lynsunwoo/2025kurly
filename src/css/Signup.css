@@ -1,0 +1,195 @@
+.signup_page {
+  width: 100%;
+}
+
+.signup_page form {
+  width: 640px;
+  border:none;
+  margin: 0 auto;
+}
+
+.form_inner {
+  box-sizing: border-box;
+  border: none;
+}
+
+.form_inner legend {
+  padding: 50px;
+  text-align: center;
+  font-size:28px;
+  color:#333;
+  font-weight:500;
+}
+
+.input_row {
+  display:flex;
+  padding:10px 20px;
+}
+.input_row label{
+  padding-top:12px;
+  width:139px;
+}
+.gender_box{
+  display:flex;
+}
+.radio_item{
+  display:inline-flex;
+  align-items:center;
+  cursor:pointer;
+  font-size:16px;
+  color:#333;
+}
+/* 기존 radio 버튼 서식 제거 */
+.radio_item input[type="radio"]{
+  display:none;
+}
+.radio_button{
+  position:relative;
+  width:20px;
+  height:20px;
+  border:2px solid #ddd;
+  border-radius:50%;
+  margin-right:10px;
+}
+/* 체크됐을 때 */
+.radio_item input[type="radio"]:checked + .radio_button{
+  border-color:#5f0080;
+  background-color: #5f0080;
+}
+.radio_item input[type="radio"]:checked + .radio_button::after{
+  content: "";
+  width:8px;
+  height:8px;
+  background:#fff;
+  border-radius:50%;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+/* 이용약관 */
+.agree_box {
+  position:relative;
+  display:inline-flex;
+  justify-content:space-between;
+  padding: 10px 20px;
+}
+
+.agree_box > label{
+  font-size:16px;
+  width:139px;
+  padding:none;
+}
+.agree_all  span{
+  color:#333;
+  font-size: 18px;
+  font-weight:500;
+}
+.agree_all p{
+  font-size:12px;
+  color:#666;
+  padding:4px 0px;
+}
+
+/* 공통 체크박스 */
+.check_item {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  line-height: 1.5;
+  color:#333;
+  font-size:14px;
+}
+
+.check_item input {
+  display: none;
+}
+
+.check_button {
+  width: 22px;
+  height: 22px;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  position: relative;
+  flex-shrink: 0;
+}
+
+/* 약관보기 버튼 */
+.btn_view {
+  position:absolute;
+  right:0px;
+  background: none;
+  border: none;
+  color: #5f0080;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* 체크됨 */
+.check_item input:checked + .check_button {
+  background: #5f0080;
+  border-color: #5f0080;
+}
+
+.check_item input:checked + .check_button::after {
+  content: "✓";
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* 리스트 */
+.agree_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.agree_list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+}
+
+.agree_list li.sub {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.sub_check {
+  display: flex;
+  gap: 24px;
+  padding-left: 34px;
+}
+
+/* 텍스트 컬러 */
+.required {
+  color: #999;
+}
+
+.optional {
+  color: #999;
+}
+
+/* 가입하기 버튼 */
+.submit_btn{
+  padding:40px;
+  display:flex;
+  justify-content:center;
+}
+.submit_btn > button{
+  border:none;
+  background: #5f0080;
+  color:#fff;
+  width:240px;
+  padding:18px 0px;
+  font-size:16px;
+}
